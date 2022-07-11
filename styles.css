@@ -1,6 +1,6 @@
-/* @import url("https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap");
+/* /*@import url("https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap");
  */
-html {
+ html {
   -ms-overflow-style: none;  /* Internet Explorer 10+ */
    scrollbar-width: none;  /* Firefox */
   scroll-behavior:smooth;
@@ -30,6 +30,10 @@ body {
   width: 100%;
 }
 
+#timeline{
+  margin-top: 3.2rem;
+
+}
 
 #services{
   margin-bottom: 7rem;
@@ -197,9 +201,7 @@ input:checked + .slider:before {
   padding-top: 1.2rem;
 }
 
-.about_spc{
-  margin-top: 2.5rem;
-}
+
 
 
 
@@ -366,7 +368,7 @@ time {
     margin-left: 20px;
   }
   .timeline ul li div {
-    width: calc(100vw - 91px);
+    width: calc(86vw - 76px);
   }
   .timeline ul li:nth-child(even) div {
     left: 45px;
@@ -440,9 +442,8 @@ time {
 
 
 
-.thanks{
-background-color: #1E5F74;
-}
+
+
 
 
 
